@@ -1,14 +1,20 @@
 body {
   font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
+  text-align: center;
 }
 
+.price {
+  font-family: "Open Sans", sans-serif;
+  color: #3D7FCF;
+  text-align: center;
+}
 /* TODO: size images manually so this is not necessary */
 img {
   max-height: 20rem;
@@ -17,21 +23,48 @@ img {
 /***************** NAV *****************/
 
 nav a:hover {
-  text-decoration: underline;
+  color: darkgray;
 }
+nav ul {
+  background-color: #3D7FCF;
+  width: 100%;
+  display: flex; 
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 2rem 0rem;
+  padding: 1rem 2rem;
 
+  
+}
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
 /**************** HERO *****************/
 
 header img {
-  max-height: 6rem;
+  float: left;
+  max-height: 6.5rem;
+  padding: 0 .5rem 0 1rem;
 }
 
-h1 .logo-w {
-  font-size: 3.5rem;
+h1 {
+  width: 25%;
+  color: darkgrey;
+  display: inline-flex;
+  font-size: 2rem;
+  align-self: flex-end;
+  padding-bottom: 2rem;
 }
 
 /**************** ASIDE ****************/
 
+aside {
+  width: 25%;
+  padding: 1rem .75rem;
+
+}
 input[type="submit"] {
   padding: .25rem;
   background-color: #3D7FCF;
@@ -42,20 +75,40 @@ input[type="submit"] {
 }
 
 /*********** PRODUCTS SECTION ***********/
-
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.item {
+  width: 30%;
+  padding: 2rem;
+  margin: 2rem 1rem;
+  align-self: flex-start;
+}
 section {
+  float: right;
   padding: 0 .75rem;
+  width: 75%;
 }
 
+div img {
+  width: 75%;
+  height: 75%;
+  padding: .5rem;
+}
 h2 {
   padding-top: 1.5rem;
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
+  
 }
 
 h3 {
   font-size: 1.2rem;
   text-align: center;
-  color: #2d2d2d;
+  color: darkgrey;
 }
