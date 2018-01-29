@@ -22,7 +22,7 @@ img {
 
 /***************** NAV *****************/
 
-nav a:hover {
+nav a,i:hover {
   color: darkgray;
 }
 nav li{
@@ -33,7 +33,7 @@ nav li{
   padding: 1rem 1rem;
   
 }
-nav a {
+nav a,i{
   color: white;
   text-decoration: none;
 
@@ -76,7 +76,7 @@ input[type="submit"] {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   
 }
 .item {
