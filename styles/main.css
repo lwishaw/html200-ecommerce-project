@@ -43,7 +43,7 @@ nav a {
 }
 /**************** HERO *****************/
 
-header img {
+.logo {
   float: left;
   max-height: 6.5rem;
   padding: 0 .5rem 0 1rem;
