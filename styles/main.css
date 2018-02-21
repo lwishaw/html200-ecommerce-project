@@ -1,6 +1,6 @@
 body {
-  font-size: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 /* TODO: size images manually so this is not necessary */
 img {
@@ -47,19 +47,15 @@ aside {
   width: 50%;
   margin: auto;
 }
-label {
-  padding: 2rem;
-  margin: 1rem;
-  
-}
+
 
 input[type="submit"] {
-  margin: 1rem 14rem;
+  margin: .5rem;
   padding: .25rem;
   background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
   border-radius: 5px;
-  font-size: .75rem;
+  font-size: 1rem;
   color: white;
 }
 
