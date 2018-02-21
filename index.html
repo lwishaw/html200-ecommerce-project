@@ -25,11 +25,7 @@
       </ul>
     </nav>
     
-    <img class="logo" 
-         srcset="images/logo-scarfcat.jpg 640w, images/logo-scarfcat-400w.jpg 400w, images/logo-scarfcat-200w.jpg 200w" 
-         sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
-         src="images/logo-scarfcat-400w.jpg"
-         alt="dapper cartoon cat wearing a scarf">
+    <img class="logo" src="images/logo-scarfcat-new.jpg" alt="dapper cartoon cat wearing a scarf">
     
     <h1>WINTER<br>WEAR<br>WEARHOUSE</h1>
   </header>
@@ -40,7 +36,7 @@
 
       <div class="item-container">
         <div class="item">
-          <img src="images/reversible-plaid.jpg" alt="reversible plaid scarf">
+          <img src="images/reversible-plaid-400w.jpg" alt="reversible plaid scarf">
           
           <h3>Reversible Plaid</h3>
 
@@ -50,11 +46,7 @@
         </div>
 
         <div class="item">
-          <img 
-           srcset="images/fringed-plaid.jpg 960w, images/fringed-plaid-800w.jpg 800w, images/fringed-plaid-400w.jpg 400w" 
-           sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
-           src="images/fringed-plaid-800w.jpg"
-           alt="fringed plaid scarf">
+          <img src="images/fringed-plaid-400w.jpg" alt="fringed plaid scarf">
           
           <h3>Fringed Plaid</h3>
           
@@ -63,10 +55,7 @@
         </div>
 
         <div class="item">
-          <img srcset="images/multi-color-1240w.jpg 1240w, images/multi-color-800w.jpg 800w, images/multi-color-400.jpg 400w" 
-          sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
-          src="images/multi-color-800w.jpg"
-          alt="multi color scarf">
+          <img src="images/multi-color-400w.jpg" alt="multi color scarf">
           
           <h3>Multi Color</h3>
 
@@ -76,10 +65,8 @@
         </div>
 
         <div class="item">
-          <img srcset="images/northern-lights.jpg 600w, images/northern-lights-400w.jpg 400w"
-          sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
-          src="images/northern-lights.jpg"
-          alt="northern lights scarf">
+          <img src="images/northern-lights-400w.jpg" alt="northern lights scarf">
+          
           <h3>Northern Lights</h3>
 
           <p>Handmade by women in Agra, sales provide medical and educational support in this remote area of India. Crinkly 100% cotton.</p>
@@ -88,9 +75,7 @@
         </div>
 
         <div class="item">
-          <img srcset="images/ombre-infinity.jpg 860w, images/ombre-infinity-400w.jpg 400w"
-          sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
-          src="images/ombre-infinity.jpg" alt="ombre infinity scarf">
+          <img src="images/ombre-infinity-400w.jpg" alt="ombre infinity scarf">
           
           <h3>Ombre Infinity</h3>
 
@@ -100,9 +85,7 @@
         </div>
 
         <div class="item">
-          <img srcset="images/twill.jpg 1040w, images/twill-800w.jpg 800w, images/twill-400w.jpg 400w"
-          sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
-          src="images/twill-800w.jpg"
+          <img src="images/twill-400w.jpg"
           alt="ashby twill scarf">
           
           <h3>Ashby Twill</h3>
@@ -113,7 +96,7 @@
         </div>
 
         <div class="item">
-          <img src="images/wool-cable.jpeg" alt="wool cable knit scarf">
+          <img src="images/wool-cable-400w.jpeg" alt="wool cable knit scarf">
           
           <h3>Wool Cable Knit</h3>
 
@@ -123,7 +106,7 @@
         </div>
 
         <div class="item">
-          <img src="images/etro.png" alt="etro paisley print silk scarf">
+          <img src="images/etro-400w.png" alt="etro paisley print silk scarf">
           
           <h3>Etro Paisley-Print Silk</h3>
 
@@ -137,17 +120,24 @@
     
     <aside>
       <hr>
-      <form>
-        <label>Sign up for our mailing list:
-          <input type="email" name="email">
+      
+      <form name="custInfo" onsubmit="capture();">
+        <label>Sign up for our mailing list with your email:
+          <input type="email" name="theName">
         </label>
-
+        <br>
+        <label>I agree to receiving emails from Winter Wear Warehouse.
+          <input type="radio">
+        </label>
+        <br>
         <input type="submit" value="Submit">
       </form>
+     
       <hr>
     </aside>
     
   </main>
   <script src="js/script.js"></script>
+  <script src="js/form-handler.js"></script>
 </body>
 </html>
