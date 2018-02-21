@@ -4,7 +4,7 @@ body {
 }
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+  max-width: 80%;
 }
 
 /***************** NAV *****************/
@@ -28,8 +28,8 @@ nav a,i{
 
 .logo {
   float: left;
-  max-height: 6.5rem;
-  padding: 2rem .5rem 1rem;
+  max-height: 9rem;
+  padding: 1rem 0rem 1rem 22rem;
 }
 
 h1 {
@@ -37,8 +37,7 @@ h1 {
   color: darkgrey;
   display: inline-flex;
   font-size: 2rem;
-  align-self: flex-end;
-  padding: 2rem .5rem;
+  padding: 3rem .5rem;
   margin: auto;
 }
 
@@ -48,8 +47,14 @@ aside {
   width: 50%;
   margin: auto;
 }
+label {
+  padding: 2rem;
+  margin: 1rem;
+  
+}
 
 input[type="submit"] {
+  margin: 1rem 14rem;
   padding: .25rem;
   background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
@@ -67,10 +72,10 @@ input[type="submit"] {
   
 }
 .item {
-  width: 33%;
+  width: 42%;
   padding: 2rem;
-  margin: 1rem 1rem;
-  align-self: flex-start;
+  margin: auto;
+  
 }
 section {
   float: right;
@@ -78,21 +83,15 @@ section {
   width:100%;
 }
 
-div img {
-  padding: .5rem;
-  margin: 0rem 1.5rem;
-  width:75%;
-  height:75%;
-}
 h2 {
   padding-top: 5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   color: #2d2d2d;  
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-align: center;
   color: darkgrey;
 }
@@ -112,7 +111,7 @@ p {
 }
 h3, p, .price{
   background-color: aliceblue;
-  padding: 1rem;
+  padding: 1.25rem 2.5rem;
   background-clip: border-box;    
 
 }
