@@ -1,0 +1,19 @@
+h1, h2, h3, p { 
+  font-size: 20%; }
+
+.logo {
+  max-width:20%;
+}
+
+img {
+  max-width:40%;
+}
+
+.item-container {
+  display: inline;
+  max-width: 45%; 
+}
+
+aside, nav, footer{
+  display: none;
+}
