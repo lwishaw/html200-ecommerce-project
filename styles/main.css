@@ -112,17 +112,24 @@ h3, p, .price{
 /*********MEDIA QUERIES******
 Write CSS that uses media queries to change layouts/style based on device attributes. This should complete the styling for the project. 
 */
-@media (max-width:375px) {
-  h3 { font-size: 1.2rem; }
-  .logo { padding: 0; 
-          max-width: 40%; }
-  h1, h2 { font-size: 1.3rem;}
+@media (max-width:320px) {
+  h2 { font-size: 1.3rem;}
   .item { width: 80%;}
   img { max-width: 60%;
         padding: 0rem 3rem;}
   h3, p, .price {
   padding: 1rem 1rem;
   background-clip: border-box;}  
+}
+
+@media (max-width:375px){
+  h1 { font-size: 1rem;}
+  h3 { font-size: 1rem; }
+}
+
+@media (max-width:425px) {
+  .logo { padding: 0; 
+          max-width: 40%; }
 }
   
 @media (min-width:1200px) {
