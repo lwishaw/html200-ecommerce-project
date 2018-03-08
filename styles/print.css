@@ -11,7 +11,7 @@ img {
 
 .item-container {
   display: inline;
-  max-width: 45%; 
+  max-width: 100%; 
 }
 
 aside, nav, footer{
