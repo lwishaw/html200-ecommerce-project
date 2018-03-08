@@ -103,7 +103,7 @@ p {
   color: #3D7FCF;
   text-align: center;
 }
-h3, p, .price{
+h3, p, .price {
   background-color: aliceblue;
   padding: 1.25rem 2.5rem;
   background-clip: border-box;    

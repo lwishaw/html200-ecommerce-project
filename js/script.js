@@ -52,3 +52,7 @@ var products = [
   }
 ]
 
+//Add a +/- button to each product listing in the HTML (maybe use Font Awesome to make it look good?)
+//Define a global variable in JS, array “cart”.
+//Write onclick handler in JS that accepts a product name as argument, pushes name into “cart” array if it is not yet there, removes it if it is, console logs the size of the cart.
+//Each +/- button should trigger the handler, passing in the appropriate product name.
