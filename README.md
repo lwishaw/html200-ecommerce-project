@@ -69,4 +69,32 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+<h2>User base<h2>
+<li>
+<ul> Some post-secondary college students</ul>
+<ul> Females, college-educated, disposable income, over the age of 30</ul>
+<ul> Those who live in Midwest/East coast, cooler climate areas </ul>
+<ul> Teenagers, disposable income, trendy</ul>
+<ul> Husbands, partners, girlfriends purchasing gifts</ul>
+<ul> Those buying gifts for family, friends</ul>
+<ul> Latina woman over the age of 18, some college education</ul>
+<ul>Women based in Hong Kong, over age of 25, like to travel</ul>
+<ul>Retirees, mostly female, not a long of disposable income</ul>
+<li>
+<h2>Devices they might use</h2>
+<p>According to Nielsen in November 2016, millennials 18-24, 98% own smartphones; 25-34 97% own smartphones; Gen X (34-44) 96% own smartphones.</p>
+<p>2018 Pew study shows along with mobile phones, Americans own a range of other information devices. Nearly 3/4 of U.S. adults now own desktop or laptop computers, while roughly half now own tablet computers and around 1-in-5 own e-reader devices. As of 206, 23% of Hispanics are smartphone dependent and it is their only online access. 73% of adults own a laptop, 53% own tablet (Jan. 10, 2018). E-reader at 22% as of 2016. <p>
+<h2>Testing</h2>
+<h3>Tested Oregon, USA EC2 chrome</h3>
+<p>Load time 2.811s, received A, A, A, F, F, checkmark. Failed to compress images. Issues with images. </p>
+<h2>From: Dulles, VA - iPad 2017 iOS 11 - Cable</h2>
+<first run load time: 3.217s, received A, A, A, F, F, checkmark, 40/100 compressed images. Issues with images. </p>
+<h3>responsivedesignchecker.com report</h3>
+<p> iPhone 6/6s/7, Sony Xperia z2/z3, Samsung Galaxy S5/S6/S7- (p) needs to be smaller as type pops out of the box. </p>
+<p>Nexus 4, Google Pixel - h3 needs to be smaller as pops out of box. Logo could be smaller too. </p>
+<h3> Sonarwhal testing> 
+<p>permalink = https://sonarwhal.com/scanner/68ac7849-eee9-4439-b50c-27f79be2021f <p>
+<p>Optimization issues, returned that 9 images could be up to 55% smaller. Compression errors. </p>
+
+
+
